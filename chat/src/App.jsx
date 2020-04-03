@@ -22,7 +22,7 @@ function App() {
     <div >
       <div className='chatbox'>
         <div className='chatbox-title'>
-          <span>ChatBot</span>
+          <span>Chat Soluções Web</span>
         </div>
         <div id='chatbox-scroll' className='chatbox-chat'>
           <div className='chatbox-bot'>
