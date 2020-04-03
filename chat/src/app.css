@@ -36,9 +36,10 @@
     border-bottom-left-radius: 0px;
     float: left;
     box-shadow: 4px 4px 7px 1px rgb(0, 0, 0, 0.4);
+    margin-right: 94px;
 }
 
-.chatbox-user {
+.chatbox-user span {
     max-width: 200px;
     margin: 5px;
     padding: 5px;
@@ -49,7 +50,7 @@
     border-bottom-right-radius: 0px;
     float: right;
     box-shadow: -4px 4px 7px 1px rgb(0, 0, 0, 0.4);
-    margin-left: 60px;
+    margin-left: 90px;
 }
 
 .chatbox-send {
@@ -74,10 +75,14 @@
 }
 
 .fa-paper-plane {
-    color: white !important;
+    color: white;
     float: right;
     margin-right: 16px;
     margin-top: 10px;
+}
+
+.chatbox-botton {
+    color: rgb(255, 255, 255, 0.5);
 }
 
 .chatbox ::-webkit-scrollbar {
